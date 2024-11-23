@@ -1,0 +1,1037 @@
+/* -------------------------------------------------------------------------------------Navbar Styles----------------------------------------------------------------------------------- */
+header {
+    background-color: #495057;
+    padding: 10px 0;
+    position: fixed;
+    width: 98.8%;
+    top: 0;
+}
+
+.navbar {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Poppins',sans-serif;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.school-name h1 {
+    font-size: 1.2em;
+    color: #fff;
+    margin: 0;
+}
+
+.school-name p {
+    font-size: 0.9em;
+    color: #ddd;
+    margin: 0;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-size: small;
+}
+
+.nav-links li {
+    position: relative;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    display: block;
+}
+
+.nav-links a:hover {
+    background-color: #343a40;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #495057;
+    min-width: 200px;
+    z-index: 1;
+    top: 100%;
+    left: 0;
+}
+
+.dropdown-content li {
+    width: 100%;
+}
+
+.dropdown-content a {
+    padding: 10px 20px;
+    color: #fff;
+    white-space: nowrap;
+}
+
+.dropdown-content a:hover {
+    background-color: #343a40;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------- Footer Styles--------------------------------------------------------------------------------------------------------------------------------------------------- */
+footer {
+    background-color: #31383E;
+    color: #fff;
+    padding: 0px 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Poppins',sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    margin-top: 100px;
+    height: 300px;
+}
+
+.footer-logo img {
+    width: 200px;
+}
+
+.footer-contact, .footer-sitemap {
+    max-width: 300px;
+}
+
+.footer-contact h2, .footer-sitemap h2 {
+    color: #8E8356;
+}
+
+.footer-contact p, .footer-sitemap ul {
+    margin: 10px 0;
+}
+
+.footer-sitemap ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-sitemap ul li {
+    margin: 5px 0;
+}
+
+.contact-button {
+    background-color: #ff4081;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px;
+    background-color: #18130E;
+    margin-top: 10px;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+/* ---------------------------------------------------------------------------------------------------ARTIKEL------------------------------------------------------------------------------------------------------------- */
+
+.container-artikel {
+    display: flex;
+    align-items: stretch; 
+    border-radius: 30px;
+    width: 1100px;
+    height: 250px;
+    margin: auto;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3), inset 4px 4px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden; /* Menghindari bagian gambar keluar dari container */
+    margin-top: 70px;
+}
+
+.container-artikel img {
+    flex: 1; 
+    height: 100%; 
+    width: 100px; 
+    object-fit: cover; 
+}
+
+.artikel {
+    flex: 1; 
+    padding: 20px; 
+    box-sizing: border-box; 
+}
+.artikel p{
+    font-family: 'Mulish' , sans-serif;
+    font-size: 0.8em;
+}
+.artikel h2{
+    font-family: 'Poppins' , sans-serif;
+    margin-top: -20px;
+}
+.button1 {
+    background-color: #31383E;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 1.3em;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 20px; 
+    font-weight: 750;
+    width: 500px;
+    margin-top: 3px;
+}
+.tanggal-artikel{
+    margin-top: -20px;
+    font-family: 'Mulish' , sans-serif;
+    font-size: 0.8em;
+}
+.button2 {
+    background-color: #31383E;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 1.3em;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 20px; 
+    font-weight: 750;
+    width: 500px;
+    margin-top: 35px;
+}
+.button3 {
+    background-color: #31383E;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 1.3em;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 20px; 
+    font-weight: 750;
+    width: 500px;
+    margin-top: 20px;
+}
+.button4 {
+    background-color: #31383E;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 1.3em;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 20px; 
+    font-weight: 750;
+    width: 500px;
+    margin-top: 17px;
+}
+.button5 {
+    background-color: #31383E;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 1.3em;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 20px; 
+    font-weight: 750;
+    width: 500px;
+    margin-top: 20px;
+}
+/* -----------------------------------------------------------Artikel Lain-------------------------------------------------------------------------------------- */
+.text-lain{
+    font-family: 'Mulish' , sans-serif;
+    font-size: medium;
+    padding: 100px;
+}
+.artikel-lain img{
+   margin: auto;
+   display: block;
+   width: 800px;
+   height: 280px;
+   border-radius: 30px;
+   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3), inset 4px 4px 10px rgba(0, 0, 0, 0.2);
+   margin-top: 80px;
+}
+.heading-lain{
+   font-family: 'Poppins' , sans-serif;
+   font-size: 1.7em;
+   font-weight: 700;
+}
+/* -----------------------------------------------------------------------------------------------------INFORMASI-------------------------------------------------------------------------- */
+.fasilitas{
+    display: flex;
+    gap: 150px;
+    flex-wrap: wrap;
+}
+.container-fasilitas {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 470px;
+    overflow: hidden;
+    text-align: center;
+    height: 410px;
+    margin-left: 50px;
+    margin-top: 75px;
+}
+.container-fasilitas img{
+    width: 100%;
+    height: auto;
+    margin: 0%;
+}
+.container-fasilitas h1{
+    font-family: 'Poppins' , sans-serif;
+    font-weight: bold;
+    font-size: 1.4em;
+    margin-top: -3px;
+}
+.container-fasilitas p{
+    font-family: 'Mulish' , sans-serif;
+    font-size: 0.7em;
+}
+
+.container1-fasilitas {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 470px;
+    overflow: hidden;
+    text-align: center;
+    height: 410px;
+    margin-left: 50px;
+    margin-top: 75px;
+    margin: auto;
+    margin-top: 100px;
+}
+.container1-fasilitas img{
+    width: 100%;
+    height: auto;
+    margin: 0%;
+}
+.container1-fasilitas h1{
+    font-family: 'Poppins' , sans-serif;
+    font-weight: bold;
+    font-size: 1.4em;
+    margin-top: -3px;
+}
+.container1-fasilitas p{
+    font-family: 'Mulish' , sans-serif;
+    font-size: 0.7em;
+}
+.hubungi-fasilitas {
+    text-align: left;
+}
+/* ------------------------------------------------------------------------------------PRESTASI---------------------------------------------------------------------------- */
+.nama-siswa{
+    text-align: center;
+}
+
+.prestasi{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    gap: 75px;
+    justify-content: center;
+    align-items: center;
+}
+.container-prestasi {
+    background-color: #31383E;
+    border-radius: 15px;
+    width: 18.5rem;
+    overflow: hidden;
+    text-align: center;
+    height: 450px;
+    margin-top: 75px;
+}
+.container-prestasi img{
+    width: 18.5rem;
+    margin: 0%;
+    height: 250px;
+}
+.container-prestasi h1{
+    font-family: 'Poppins' , sans-serif;
+    font-size: 1.3em;
+    margin-top: -3px;
+    color: #FFFFFF;
+    padding: 10px;
+    font-weight: 300;
+}
+.container-prestasi p{
+    font-family: 'Inter' , sans-serif;
+    font-size: 1em;
+    color: #FFFFFF;
+    padding: 10px;
+    font-weight: 300;
+    top: -25px ;
+}
+/* ------------------------------------------------------------------------GALERI-------------------------------------------------------------------------------------------- */
+.container-galeri{
+    align-items: center;
+    text-align: center;
+    margin: 100px;
+}
+.container-galeri img{
+    border-radius: 20px;
+    width: 892px;
+    height: 399px;
+}
+.container-galeri p{
+    font-family: 'Mulish' , sans-serif;
+    font-weight: 750;
+}
+/* ------------------------------------------------------------------EKSKUL--------------------------------------------------------------------------------------------------- */
+.container-ekskul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    padding: 20px;
+    width: 70%;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.image-ekskul {
+    height: 100%;
+}
+
+.image-ekskul img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.content-ekskul {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Poppins',sans-serif;
+}
+
+.content-ekskul h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.content-ekskul p {
+    font-size: 0.8em;
+    line-height: 1.5;
+    margin: 0;
+}
+/* ----------------------------------------------------------------HUBUNGi------------------------------------------------------------------------------------------------- */
+.hubungi {
+    padding: 100px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hubungi h2 {
+    font-weight: 500;
+    font-size: 1.3em;
+}
+
+.kontak-form-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.kontak {
+    flex: 1;
+}
+
+.item-kontak {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 25px;
+}
+
+.item-kontak a {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.kontak i {
+    font-size: 1.5em;
+}
+
+.kontak p {
+    font-family: 'Mulish', sans-serif;
+    font-size: 1em;
+}
+
+.form {
+    flex: 1;
+    background-color: #31383E;
+    padding: 20px;
+    border-radius: 8px;
+    height: 490px;
+}
+
+.pertanyaan h2, .pertanyaan p {
+    font-family: 'Poppins', sans-serif;
+    margin: 0 0 10px;
+    color: #fff;
+}
+
+.pertanyaan h2 {
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+.pertanyaan p {
+    font-weight: 300;
+    font-size: 0.9em;
+}
+
+.container-form {
+    display: flex;
+    gap: 20px;
+}
+.nama-container div {
+    flex: 1;
+}
+
+.container-form p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9em;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.container-form input, .email-pengirim input{
+    padding: 8px;
+    font-size: 0.9em;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #333;
+}
+
+.email-pengirim {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-top: 15px;
+}
+
+.komentar textarea {
+    height: 100px;
+    width: 500px;
+    resize: none;
+    border-radius: 8px;
+    font-family: 'Poppins',sans-serif;
+}
+
+.kirim button {
+    padding: 10px;
+    background-color: #E9507C;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    margin-top: 15px;
+}
+.komentar p{
+    color: white;
+}
+.maps-iframe{
+    margin-left: 100px;
+    margin-top: -50px;
+    border-radius: 10px;
+}
+/* ----------------------------------------------------------------------------------------------------HOME------------------------------------------------------------------------------ */
+.banner {
+    padding: 240px 0;
+    background-image: url('images/Group\ 135\ \(1\).png');}
+
+.banner-content h2 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.banner-content p {
+    font-size: 1.2em;
+}
+
+.kepala-sekolah-home {
+    background-color: #586066;
+    padding: 100px 50px;
+    color: #fff;
+    margin-bottom: 200px;
+}
+
+.container-kepala-home {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+    height: 300px;
+}
+
+.foto-kepala-home {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.foto-kepala-home img {
+    width: 200px;
+    height: 350px;
+}
+
+.image-kepala {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.info-kepala {
+    background: #fff;
+    color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.info-kepala h3 {
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.info-kepala p {
+    margin: 5px 0 0;
+    font-size: 1em;
+    font-style: italic;
+}
+
+.sambutan-kepala-home {
+    flex: 2;
+}
+
+.sambutan-kepala-home h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.sambutan-kepala-home p {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.wakil-kepala-home h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.vice-principals-home {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.vice-principal-home {
+    width: 22%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.vice-principal-home img {
+    width: 30vh;
+    height: auto;
+    border-radius: 30%;
+    margin-bottom: 10px;
+}
+
+.fasilitas-home {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+.fasilitas-home h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+
+.icons-home {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.icon-home {
+    text-align: center;
+    width: 150px;
+    margin: 20px;
+}
+
+.icon-home img {
+    width: 130px;
+    height: 130px;
+    margin-bottom: 10px;
+}
+
+.icon-home h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #373838;
+}
+
+.icon-home p {
+    font-size: 14px;
+    color: #7D7C82;
+}
+
+.prestasi-home {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.prestasi-home h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+
+.prestasi-list-home {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.prestasi-item-home {
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.prestasi-item-home img {
+    width: 150px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.prestasi-item-home p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.prestasi-item-home button {
+    background-color: #ff7f50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.home-page{
+    font-family: 'Poppins',sans-serif;
+}
+/* ---------------------------------------------------------------------------------------------OSIS----------------------------------------------------------------------------------------------------------------------------- */
+.kegiatan-osis h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 75px;
+    color: #000000;
+    font-weight: bold;
+    font-family: 'Poppins',sans-serif;
+}
+
+.card-osis-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card-osis {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-osis img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.card-osis-content {
+    background-color: #343a40;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+}
+
+.card-osis-content p {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Poppins',sans-serif;
+}
+/* ---------------------------------------------------------------------------MISI-VISI----------------------------------------------------------------------------------------------- */
+.misivisi {
+    font-family: 'Mulish', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container-visimisi {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.visi, .misi {
+    width: 540px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3), inset 4px 4px 10px rgba(0, 0, 0, 0.2);
+    padding-left: 30px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.header-visimisi h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #0CA3C8;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.header-visimisi p {
+    font-size: large;
+}
+
+.visismp, .misismp {
+    font-size: small;
+}
+
+.visismp p, .misismp p {
+    margin: 25px 0;
+}
+
+.visismp ul li, .misismp ul li {
+    margin: 15px 0;
+}
+
+.bawah-visimisi {
+    padding-bottom: 50px;
+}
+
+.container-logo-visimisi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: row;
+}
+
+.logo-visimisi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.logo-visimisi img {
+    width: 200px;
+    margin-bottom: 0;
+}
+
+.text-visimisi {
+    border-left: 2px solid black;
+    padding-left: 20px;
+}
+
+.text-visimisi h1 {
+    margin: 0;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.text-visimisi h2 {
+    margin: 0;
+    font-size: 30px;
+    color: #E5547D;
+    font-weight: bold;
+}
+/* ---------------------------------------------------------------------------GURU-------------------------------------------------------------------------------------------------- */
+.container-guru {
+    text-align: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.teacher-group-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 75px;
+    padding: 20px;
+}
+
+.teacher-group-card-guru {
+    background-color: #31383E;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.5s ease, box-shadow 1s ease;
+}
+
+.teacher-group-card-guru img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 5px solid #ffffff;
+}
+
+.card-content-guru {
+    padding: 15px;
+}
+
+.card-content-guru h2 {
+    font-size: 1.5em;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.card-content-guru p {
+    font-size: 1em;
+    color: #ffffff;
+    line-height: 1.5;
+}
+.page-guru{
+    font-family: 'Poppins',sans-serif;
+}
+/* ------------------------------------------------------------------------SEJARAH-------------------------------------------------------------------------------------------------- */
+.banner-sejarah {
+    background-image: url('images/sejarah.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 270px 0;
+    margin-bottom: 70px;
+}
+
+.banner-content-sejarah h2 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.banner-content-sejarah p {
+    font-size: 1.2em;
+}
+
+.container-sejarah {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.text-section-sejarah {
+    width: 80%;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: -120px;
+}
+
+.text-section-sejarah h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.text-section-sejarah h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.text-section-sejarah p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.image-section-sejarah {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.image-section-sejarah img {
+    width: 130%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container-sejarah {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.column-sejarah {
+    text-align: center;
+    flex: 1;
+}
+
+.column-sejarah:not(:last-child) {
+    border-right: 1px solid #7f8c8d;
+}
+.page-sejarah{
+    font-family: 'Poppins',sans-serif;
+}
